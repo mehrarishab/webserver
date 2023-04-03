@@ -11,7 +11,7 @@ def about():
     return render_template('about.html')
 
 @app.route("/rishab_mehra.html")
-def tushar_new():
+def rishab_mehra():
     return render_template('rishab_mehra.html')
 
 if __name__ == "__main__":
